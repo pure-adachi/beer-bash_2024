@@ -1,0 +1,32 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #d2d5dc;
+  font-family: sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 90px;
+  font-weight: bold;
+  line-height: 100px;
+  height: 100px;
+  width: 100px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  cursor: pointer;
+}
