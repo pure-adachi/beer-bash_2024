@@ -7,7 +7,17 @@
   </head>
   <body>
     <div id="root">
-      <button onclick="handleClickSquare(this)"></button>
+      <div>
+        <header>
+          <p>リスト</p>
+          <button onclick="add()">追加</button>
+        </header>
+        <ul>
+          <li><div>hoge</div><button onclick="del(this)">削除</button></li>
+          <li><div>fuga</div><button onclick="del(this)">削除</button></li>
+          <li><div>piyo</div><button onclick="del(this)">削除</button></li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>

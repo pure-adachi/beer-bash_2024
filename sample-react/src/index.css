@@ -15,18 +15,46 @@ html, body {
   align-items: center;
 }
 
-button {
-  background: #fff;
-  border: 1px solid #999;
-  float: left;
-  font-size: 90px;
-  font-weight: bold;
-  line-height: 100px;
-  height: 100px;
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 3rem;
+}
+
+ul {
+  font-size: 1.5rem;
+}
+
+li {
+  display: flex;
+}
+
+li div {
   width: 100px;
-  margin-right: -1px;
-  margin-top: -1px;
-  padding: 0;
-  text-align: center;
+}
+
+button {
+  font-size: .875rem;
+  line-height: 1.25rem;
+  border-radius: .5rem;
+  background-color: #1c64f3;
+  color: rgb(255 255 255);
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-bottom: .625rem;
+  padding-top: .625rem;
+  border: none;
+  margin-inline-end: .5rem;
+  margin-bottom: .5rem;
   cursor: pointer;
+  text-transform: none;
+  height: 40px;
+}
+
+button:hover {
+  background-color: rgb(27 86 219);
 }
