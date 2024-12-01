@@ -8,9 +8,7 @@ const App = () => {
   }
 
   return (
-    <>
-      <button onClick={handleClickSquare}>{text}</button>
-    </>
+    <button onClick={handleClickSquare}>{text}</button>
   );
 }
 
